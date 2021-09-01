@@ -1,5 +1,7 @@
 # Gobuster v4.1.0 released by Ninja
 
+- Jump to  [Install linux termux](https://github.com/gh-ninja/termux-gobuster#easy-installation)
+
 Gobuster is a tool used to brute-force:
 
 - URIs (directories and files) in web sites.
