@@ -661,3 +661,6 @@ http://localhost.s3.amazonaws.com/
 ```
 
 ## Thanks
+
+## desktop version
+- to desktop version use: [gobuster](https://github.com/OJ/gobuster)
