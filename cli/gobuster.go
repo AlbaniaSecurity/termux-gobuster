@@ -15,9 +15,9 @@ const ruler = "==============================================================="
 const cliProgressUpdate = 500 * time.Millisecond
 
 func banner() {
-	fmt.Printf("Gobuster v%s\n", libgobuster.VERSION)
+	fmt.Printf("Gobuster v%s\n", "4.1.0")
 	fmt.Println("by Ninja")
-}
+}libgobuster.VERSION
 
 type outputType struct {
 	Mu              *sync.RWMutex
