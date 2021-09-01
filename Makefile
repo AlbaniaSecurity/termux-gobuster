@@ -76,7 +76,6 @@ clean:
 
 .PHONY: install_termux
 install_termux: linux
-	@for GOARCH in ${ARCHS}; do \
-		mv ./build/gobuster-linux-$${GOARCH}/gobuster ~/../usr/bin/
-	done; \
+	go build -o gobuster main.go
+	mv gobuster ~/../usr/bin/
 	echo "Done."
