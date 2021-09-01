@@ -232,7 +232,7 @@ Default options looks like this:
 gobuster dir -u https://buffered.io -w ~/wordlists/shortlist.txt
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dir
@@ -260,7 +260,7 @@ Default options with status codes disabled looks like this:
 gobuster dir -u https://buffered.io -w ~/wordlists/shortlist.txt -n
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 
 ===============================================================
@@ -290,7 +290,7 @@ Verbose output looks like this:
 gobuster dir -u https://buffered.io -w ~/wordlists/shortlist.txt -v
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dir
@@ -321,7 +321,7 @@ Example showing content length:
 gobuster dir -u https://buffered.io -w ~/wordlists/shortlist.txt -l
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dir
@@ -368,7 +368,7 @@ Normal sample run goes like this:
 gobuster dns -d google.com -w ~/wordlists/subdomains.txt
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dns
@@ -407,7 +407,7 @@ Show IP sample run goes like this:
 gobuster dns -d google.com -w ~/wordlists/subdomains.txt -i
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dns
@@ -446,7 +446,7 @@ Base domain validation warning when the base domain fails to resolve. This is a 
 gobuster dns -d yp.to -w ~/wordlists/subdomains.txt -i
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dns
@@ -469,7 +469,7 @@ Wildcard DNS is also detected properly:
 gobuster dns -d 0.0.1.xip.io -w ~/wordlists/subdomains.txt
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dns
@@ -492,7 +492,7 @@ If the user wants to force processing of a domain that has wildcard entries, use
 gobuster dns -d 0.0.1.xip.io -w ~/wordlists/subdomains.txt --wildcard
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Mode         : dns
@@ -524,7 +524,7 @@ Normal sample run goes like this:
 gobuster vhost -u https://mysite.com -w common-vhosts.txt
 
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Url:          https://mysite.com
@@ -579,7 +579,7 @@ Normal sample run goes like this:
 ```text
 PS C:\Users\firefart\Documents\code\gobuster> .\gobuster.exe s3 --wordlist .\wordlist.txt
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Threads:                 10
@@ -608,7 +608,7 @@ Verbose and sample run
 ```text
 PS C:\Users\firefart\Documents\code\gobuster> .\gobuster.exe s3 --wordlist .\wordlist.txt -v
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Threads:                 10
@@ -638,7 +638,7 @@ Extended sample run
 ```text
 PS C:\Users\firefart\Documents\code\gobuster> .\gobuster.exe s3 --wordlist .\wordlist.txt -e
 ===============================================================
-Gobuster v3.1.0
+Gobuster v4.1.0
 by Ninja
 ===============================================================
 [+] Threads:                 10
