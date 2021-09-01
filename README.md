@@ -155,10 +155,9 @@ Global Flags:
 ```
 
 ## Easy Installation
-
-## Building From Source
-
-
+- 1 Clone Repo: `git clone https://github.com/gh-ninja/termux-gobuster.git && cd termux-gobuster`<br>
+- 2 Build and Install Using Make: make install_termux
+- 3 Done ! this easy.
 
 ### Compiling
 
