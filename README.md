@@ -664,5 +664,3 @@ http://localhost.s3.amazonaws.com/
 ```
 
 ## Thanks
-
-See the THANKS file for people who helped out.
